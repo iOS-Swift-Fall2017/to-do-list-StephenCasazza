@@ -12,6 +12,7 @@
 		931EE32C1F74A21A0071C128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931EE32A1F74A21A0071C128 /* Main.storyboard */; };
 		931EE32E1F74A21A0071C128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931EE32D1F74A21A0071C128 /* Assets.xcassets */; };
 		931EE3311F74A21A0071C128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931EE32F1F74A21A0071C128 /* LaunchScreen.storyboard */; };
+		931EE3391F74B7370071C128 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931EE3381F74B7370071C128 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		931EE32D1F74A21A0071C128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931EE3301F74A21A0071C128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		931EE3321F74A21A0071C128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931EE3381F74B7370071C128 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				931EE3261F74A21A0071C128 /* AppDelegate.swift */,
 				931EE3281F74A21A0071C128 /* ViewController.swift */,
+				931EE3381F74B7370071C128 /* DetailViewController.swift */,
 				931EE32A1F74A21A0071C128 /* Main.storyboard */,
 				931EE32D1F74A21A0071C128 /* Assets.xcassets */,
 				931EE32F1F74A21A0071C128 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931EE3391F74B7370071C128 /* DetailViewController.swift in Sources */,
 				931EE3291F74A21A0071C128 /* ViewController.swift in Sources */,
 				931EE3271F74A21A0071C128 /* AppDelegate.swift in Sources */,
 			);
